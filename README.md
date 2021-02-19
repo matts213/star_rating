@@ -1,5 +1,15 @@
 # star_rating
 
+**Puzzle:** Create a javascript function that will *console.log()* a text representation of a star rating based on full, half , or empty stars.
+
+Take the star rating and the total number of stars as arguments. 
+
+You will need to take the rating and round to the nearest half star.
+
+for example 3.6/5 would equal (full, full, full, half, empty)
+
+or 1.1/4 would equal (full, empty, empty, empty)
+
 <pre>
 function StarRating(str, totalStars) {
 
